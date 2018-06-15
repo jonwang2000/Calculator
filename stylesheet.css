@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+	font-size: 64px;
+}
+
+.container {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 80px 80px 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "h h h h" "m m m m" "m m m m" "m m m m" "m m m m" "m m m m";
+}
+
+.header {
+	grid-area: h;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	background-color: black;
+	color: white;
+	text-align: right;
+}
+
+.btn {
+  background-color: #cccccc;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.orange {
+	background-color: orange;
+}
+button {
+  font-size: 26px;
+}
