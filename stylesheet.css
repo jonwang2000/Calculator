@@ -41,7 +41,7 @@ body {
 }
 
 #calcDisplay {
-	height: 64px; 
+	height: 64px;
 	color: white;
 	text-align: right;
 	border-left: 1px solid grey;
@@ -72,11 +72,17 @@ h1 {
 
 #calcParent {
 	margin-left: calc(50% - 100px);
-	-webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+	-webkit-touch-callout: none;
+	/* iOS Safari */
+	-webkit-user-select: none;
+	/* Safari */
+	-khtml-user-select: none;
+	/* Konqueror HTML */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* Internet Explorer/Edge */
+	user-select: none;
+	/* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
