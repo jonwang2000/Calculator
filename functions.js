@@ -88,8 +88,10 @@ var performOperation = (clickObj) => {
     }
 }
 
-
-
+// MAJOR ISSUE:
+// Currently if the result has just been done with = and AC was not hit,
+// user can keep adding onto the result.
+// It should actually just act like result is empty but it doesn't
 
 
 for (let i = 0; i < calcNumBtns.length; i++) {
