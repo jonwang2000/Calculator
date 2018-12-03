@@ -41,7 +41,7 @@ body {
 }
 
 #calcDisplay {
-	height: 80px; 
+	height: 64px; 
 	color: white;
 	text-align: right;
 	border-left: 1px solid grey;
