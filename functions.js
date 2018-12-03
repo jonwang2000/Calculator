@@ -28,6 +28,12 @@ var updateDisplay = (clickObj) => {
     if (displayVal === '0')
         displayVal = '';
 
+    if (displayVal === 'NaN')
+        displayVal = '';
+
+    if (displayVal === 'Infinity')
+        displayVal = '';
+
     displayVal += btnText;
     display.innerText = displayVal;
 }
