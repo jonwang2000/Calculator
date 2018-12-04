@@ -35,6 +35,12 @@ var updateDisplay = (clickObj) => {
         displayVal = '';
 
     displayVal += btnText;
+
+    if (displayVal.length > 8) {
+        displayVal = displayVal.slice(0, 7);
+        displayVal += '..';
+    }
+
     display.innerText = displayVal;
 }
 
@@ -78,6 +84,10 @@ var performOperation = (clickObj) => {
             evalStringArray.push(displayVal);
             var evaluation = eval(evalStringArray.join(' '));
             displayVal = evaluation + '';
+            if (displayVal.length > 7) {
+                displayVal = displayVal.slice(0, 7);
+                displayVal += '..';
+            }
             display.innerText = displayVal;
             evalStringArray = [];
 
