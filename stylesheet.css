@@ -24,7 +24,7 @@ body {
 .row {
 	display: table;
 	table-layout: fixed;
-	width: 200px;
+	width: 250px;
 }
 
 .column {
@@ -32,12 +32,12 @@ body {
 }
 
 #calcZero {
-	width: 51.5px;
+	width: 52.66666666667px;
 	border-radius: 0 0 0 7px;
 }
 
 #calcClear {
-	width: 51.5px;
+	width: 52.66666666667px;
 }
 
 #calcDisplay {
