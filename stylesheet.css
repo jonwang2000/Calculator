@@ -71,7 +71,7 @@ h1 {
 }
 
 #calcParent {
-	margin-left: calc(50% - 100px);
+	margin-left: calc(50% - 125px);
 	-webkit-touch-callout: none;
 	/* iOS Safari */
 	-webkit-user-select: none;
