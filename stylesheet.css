@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
 
 body {
 	font-family: "Roboto", sans-serif;
+	font-weight: 100;
 }
 
 .calcBtn {
@@ -13,7 +14,6 @@ body {
 	text-align: center;
 	cursor: pointer;
 	font-size: 32px;
-	font-weight: 100;
 	padding-top: 3px;
 }
 
@@ -60,6 +60,7 @@ h1 {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 40px;
+	font-weight: 400;
 }
 
 #calcEqual {
@@ -81,4 +82,24 @@ h1 {
 	user-select: none;
 	/* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+}
+
+#nonCalc {
+	margin-top: 50px;
+	font-weight: 400;
+	text-align: center;
+	font-size: 18px;
+}
+
+.cleanLink {
+	text-decoration: none;
+	color: #0539D7;
+}
+
+.cleanLink:hover {
+	color: #002288;
+} 
+
+.cleanLink:active {
+	color: #002288;
 }
