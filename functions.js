@@ -13,6 +13,7 @@ var decimalBtn = document.getElementById('calcDecimal');
 var clearBtn = document.getElementById('calcClear');
 var backspaceBtn = document.getElementById('calcBackspace');
 var display = document.getElementById('calcDisplay');
+var percentBtn = document.getElementById('calcPercent');
 
 var displayVal = '0';
 var pendingVal;
@@ -117,6 +118,12 @@ clearBtn.onclick = () => {
     displayVal = '0';
     pendingVal = undefined;
     evalStringArray = [];
+    display.innerText = displayVal;
+}
+
+percentBtn.onclick = () => {
+    displayVal = '0.0' + displayVal;
+    pendingVal = displayVal;
     display.innerText = displayVal;
 }
 
