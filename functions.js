@@ -122,7 +122,7 @@ clearBtn.onclick = () => {
 }
 
 percentBtn.onclick = () => {
-    displayVal = '0.0' + displayVal;
+    displayVal = eval(displayVal + " / 100");
     pendingVal = displayVal;
     display.innerText = displayVal;
 }
